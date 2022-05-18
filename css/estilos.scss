@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu+Mono&display=swap');
+//fonts
+$fonts: "Koulen";
+//colors
+$color: #e6a756;
+$color2: #f6e1c5;
+
+.btn-warning {
+    color: #000;
+    background-color: $color;
+    border-color: $color;
+}
+.text-primary {
+    --bs-text-opacity: 1;
+    color: $color2 !important ; 
+}
+.text-center {
+    text-align: center !important;
+}
+body{
+    background-image:linear-gradient(rgba(138, 100, 52, 0.7215686275), rgba(138, 100, 52, 0.6509803922)),url(../images/img/cesped.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Koulen', cursive !important;
+}
+.site-heading {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    line-height: 1;
+    .site-heading-lower{
+        font-size: 5rem;
+        line-height: 4rem;
+        color: $color;
+    }
+}
+.site-heading .site-heading-upper {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.navbar-dark .navbar-brand {
+    color: $color;
+}
+.bg-faded {
+    background-color: $color2;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+section {
+    display: block;
+}
+.intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+}
+.section-heading {
+    text-transform: uppercase;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+.mb-4 {
+    margin-bottom: 1.5rem!important;
+}
+h2, .h2 {
+    font-size: $fonts;
+}
+.section-heading .section-heading-upper {
+    display: block;
+    font-weight: 800;
+}
+.intro .intro-img {
+    width: 75%;
+    float: right;
+}
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(230, 167, 86, 0.9);
+}
+.cta .cta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+}
+.footer {
+    background-color: #0B0D17;
+}
+.text-faded {
+    color: $color2;
+}
+
+.text-center {
+    text-align: center !important;
+    font-family: 'Koulen', cursive !important;
+}
+.navbar-dark .navbar-brand {
+    color: $color;
+    
+}
+.page-section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+p {
+    line-height: 1.75;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.fa.fa-twitter{
+    color: #00acee;
+}
+.fa-facebook {
+    color: #3b5998;
+}
+.fa-instagram{
+    color: $color
+}
+.fa.fa-facebook, .fa.fa-twitter {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    ;
+}
+.fa-whatsapp{
+    color:#00bb2d
+}
+.ul{
+    font-family: 'Koulen', cursive !important;
+}
